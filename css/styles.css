@@ -1,0 +1,49 @@
+#wholepage {
+    text-align: center;
+    padding: 3px;
+    border-radius: 8px;
+    width: 56.5%;
+    margin: auto;
+}
+.section1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered1 {
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section2 {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 9.2px;
+    width: 81%;
+    margin: auto;
+}
+.section3 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered2 {
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9.2px;
+    width: 75%;
+}
+.section4 {
+    width: 78%;
+    margin: auto;
+    text-align: center;
+}
+.section6 {
+    font-size: 12px;
+}
