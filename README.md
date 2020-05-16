@@ -1,4 +1,4 @@
-#  African Names.Inc
+#  DELANI STUDIO
 #### By **Edwin Ogwel**
 Web Developer
 ## Description
