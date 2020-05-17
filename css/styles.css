@@ -1,5 +1,5 @@
-#wholepage {
-    text-align: center;
+#container {
+    text-align: unset;
     padding: 3px;
     border-radius: 8px;
     width: 56.5%;
@@ -9,6 +9,7 @@
     position: relative;
     text-align: center;
     color: white;
+   
 }
 .centered1 {
     font-size: x-large;
@@ -16,6 +17,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 8px;
 }
 .section2 {
     position: relative;
@@ -29,6 +31,7 @@
     position: relative;
     text-align: center;
     color: white;
+    line-height: 12%;
 }
 .centered2 {
     font-size: large;
@@ -38,12 +41,36 @@
     transform: translate(-50%, -50%);
     font-size: 9.2px;
     width: 75%;
+   
 }
 .section4 {
     width: 78%;
     margin: auto;
     text-align: center;
+    font-size: 13px;
+}   
+.section5{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    color: white;
 }
 .section6 {
+    font-size: 10px;
+    text-align: center;
+}
+.centered3 {
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+input, button, select, optgroup, textarea, ::placeholder{
+    margin: auto;
+    background-color: transparent; 
+    color: white;
     font-size: 12px;
+
 }
