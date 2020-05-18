@@ -2,7 +2,8 @@
 <html>
 
 <head>
-   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -17,7 +18,7 @@
             <img src="img/backgrounds/image2.jpg" alt="Background image 1" width="100%" height="auto">
 
             <div class="centered1">
-                
+
                 <br><br><br><br><br><br><br><br><br>
                 <img src="img/logo/logo.jpg" width="45" height="45">
                 <br><br>
@@ -26,7 +27,7 @@
                 <h3>TO DELANI STUDIO</h3>
                 <p>AMAZING PEOPLE ARE MAKING DESIGNS IN A FUN ENVIRONMENT</p>
                 <br><br><br><br><br>
-                
+
                 <img src="img/mouse_click.png" width="14" height="23">
             </div>
 
@@ -64,11 +65,36 @@
             <p>
             <h5>WHAT WE DO</h5>
             </p>
-            <img src="img/services_icons/design_icon.jpg" alt="design_icon" width="45" height="49">
-            <span style="padding-left: 200px;"></span>
-            <img src="img/services_icons/dev_icon.jpg" alt="dev icon" width="45" height="49">
-            <span style="padding-left: 200px;"></span>
-            <img src="img/services_icons/product_icon.jpg" alt="product_icon" width="45" heigth="49">
+
+            <div id="design" onclick="myFunction1()">
+                <img src="img/services_icons/design_icon.jpg" alt="design_icon" width="45" height="49">
+                <span style="padding-left: 500px;"></span>
+                <script>
+                    function myFunction1() {
+                        document.getElementById("design").innerHTML = "DESIGN<br>Our design practice offers a full range of services<br> including brand strategy, interaction and visual design<br> and user experience testing";
+                    }
+                </script>
+            </div>
+
+            <div id="development" onclick="myFunction2()">
+                <img src="img/services_icons/dev_icon.jpg" alt="dev icon" width="45" height="49">
+                <span style="padding-left: 200px;"></span>
+                <script>
+                    function myFunction2() {
+                        document.getElementById("development").innerHTML = "DEVELOPMENT<br>All engineers are fluent in the latest enterprise, mobile and web development technologies.<br>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.";
+                    }
+                </script>
+            </div>
+
+            <div id="product management" onclick="myFunction3()">
+                <img src="img/services_icons/product_icon.jpg" alt="product_icon" width="45" heigth="49">
+                <script>
+                    function myFunction3() {
+                        document.getElementById("product management").innerHTML = "PRODUCT MANAGEMENT<br>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.<br>This iterative process allows for changes as business requirements evolve";
+                    }
+                </script>
+            </div>
+
 
             <h5><br><br>PORTFOLIO</h5>
             <img src="img/porfolio/work4.jpg" alt="work1" width="130" height="90"> &nbsp;
@@ -91,7 +117,7 @@
                 <input type="text" placeholder="Name...">
                 <input type="text" placeholder="Email...">
                 <br>
-                <textarea name ="message" rows="7" cols="90"  placeholder="Your message here..."></textarea>
+                <textarea name="message" rows="7" cols="90" width="auto" placeholder="Your message here..."></textarea>
             </div>
 
         </div>
@@ -112,6 +138,7 @@
 
         </div>
 
+    </div>
     </div>
 </body>
 
