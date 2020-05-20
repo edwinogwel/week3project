@@ -1,6 +1,6 @@
 #container {
     position: relative;
-    width: 56.5%;
+    width: 69%;
     margin: auto;
 }
 .section1 {
@@ -41,22 +41,23 @@
    
 }
 .section4 {
-    width: 80%;
- text-align: center;
-    font-size: 10px;
-    position: relative;
-   
+    text-align: center;
+    font-size: 9px;
 }   
 .section5{
     position: relative;
     text-align: center;
     margin: auto;
     color: white;
+   
 }
 .section6 {
     font-size: 10px;
     text-align: center;
    
+}
+.section7 {
+    text-align: center;
 }
 .centered3 {
     font-size: x-large;
@@ -71,4 +72,15 @@ input, button, select, optgroup, textarea, ::placeholder{
     background-color: transparent; 
     color: white;
     font-size: 12px;
+}
+#development {
+    float: none;
+}
+.icons {
+    float: left;
+    margin: 34px;
+    text-align: center;
+}
+.caption {
+    text-align: center;
 }
