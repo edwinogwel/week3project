@@ -42,6 +42,7 @@
 .section4 {
     text-align: center;
     font-size: 9px;
+    
 }
 .section5 {
     position: relative;
@@ -55,7 +56,7 @@
    
 }
 .section7 {
-    
+    padding-left: 182px;
     text-align: center;
     content: "";
     clear: both;
@@ -92,8 +93,9 @@ input, button, select, optgroup, textarea, ::placeholder{
     float: left;
     position: relative;
     width: 25%;
-    padding: 1px;
-
+    padding-left: 1px;
+    padding-bottom: 20px;
+    
   }
   .image {
     opacity: 1;
@@ -113,28 +115,29 @@ input, button, select, optgroup, textarea, ::placeholder{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    background-color: transparent;
    
   }
   
   .container:hover .image {
-    opacity: 0.4;
+    opacity: 0.1;
+   
   }
   
   .container:hover .middle {
     opacity: 1;
   }
-  
   .text {
-    background-color: transparent;
     color: white;
-    font-size: 16px;
-    font-weight: 900;
-    padding-top: 3px;
-    padding-bottom: 16px;
-    padding-left: 1px;
-    padding-right: 30px;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 26px;
+    padding-left: 4px;
+    padding-right: 50px;
     text-align: left;
     opacity: 500;
     border-style: solid;
     margin-left: 0.4px;
+
 }
